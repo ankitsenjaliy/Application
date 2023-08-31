@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.FrameLayoutActivity"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/image16"
+        android:scaleType="fitXY"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/framelayoutbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom|center"
+        android:backgroundTint="@color/red"
+        android:layout_marginBottom="40dp"
+        app:cornerRadius="10dp"
+        />
+</FrameLayout>

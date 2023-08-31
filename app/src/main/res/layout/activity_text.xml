@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.TextActivity"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="WELCOME"
+                android:textSize="20dp"
+                android:textColor="@color/pink"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="60dp"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Welcome"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="60dp"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Text Password"
+                android:inputType="textPassword|textVisiblePassword|textWebPassword"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="60dp"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Numeric Password"
+                android:inputType="numberPassword"
+                android:maxLength="8"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="60dp"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Email Id"
+                android:inputType="textEmailAddress|textEmailSubject|textWebEmailAddress"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="60dp"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Phone Number"
+                android:inputType="phone|textPhonetic"
+                android:maxLength="10"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="60dp"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Address"
+                android:inputType="textPostalAddress"
+                android:maxLength="80"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="60dp"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Multiline Text"
+                android:inputType="textMultiLine"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="60dp"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Date And Time"
+                android:inputType="date|time|datetime"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="60dp"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Number"
+                android:inputType="number|numberSigned|numberDecimal"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="60dp"
+                android:gravity="center"
+                />
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Auto Complete Text View"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="60dp"
+                android:gravity="center"
+                />
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Multi Auto Complete Text View"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="60dp"
+                android:gravity="center"
+                />
+
+            <CheckedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Checked Text View"
+                android:textSize="20dp"
+                android:textColor="@color/red"
+
+                android:checkMark="@drawable/radiobutton"
+                android:checked="true"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="60dp"
+                android:gravity="center"
+                />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Floating Hint Enabled Default" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
